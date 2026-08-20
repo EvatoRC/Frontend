@@ -256,6 +256,11 @@ section h2 {
     text-align: left;
     border-top: 5px solid var(--color-amarillo);
     background-color: #fffceb;
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: var(--espacio-sm);
+    }
 }
 
 .product-card.featured h3 {
